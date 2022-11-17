@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
 .container{
 /*    width: 1920px;*/
 /*    max-width: 100%;*/
-    margin: 31px 77px 0px 77px;
+
 }
 
 .header{
@@ -37,11 +37,47 @@ h1, h2, h3, h4, h5, h6{
 
 .header_top{
     display: flex;
+    height: 29px;
+    margin: 31px 77px 0px 77px;
 }
 .open-tele{
+    width: 50%;
     display: flex;
+    justify-content:space-between;
+    padding-right: 10px;
+
 }
 
 .call-email{
+    width: 50%;
     display: flex;
+    justify-content:space-between;
+    padding-left: 10px;
+}
+
+.header_center{
+    height: 140px;
+    background: #EAEAEA;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    margin: 0px 77px;
+    align-items: center;
+}
+.nav-menu-main{
+    /*height: 100%;*/
+    width: 80%;
+    display: flex;
+
+}
+
+.telephone-block{
+    /*height: 100%;*/
+    width: 20%;
+    display: flex;
+    justify-content: end;
+
 }
